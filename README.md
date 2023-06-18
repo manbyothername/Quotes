@@ -1,2 +1,2 @@
 # Quotes-Generator
-https://osvaldogrc.github.io/Quotes-Generator/
+https://manbyothername.github.io/Quotes-Generator/
