@@ -1,2 +1,2 @@
-# Quotes-Generator
+# Quotes
 https://manbyothername.github.io/Quotes-Generator/
