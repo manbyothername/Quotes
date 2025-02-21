@@ -44,7 +44,7 @@ authorText.textContent = quote.author ? quote.author : "Unknown";
 //Get Quotes fom API
 async function getQuotes(){
     loading();
-    const apiUrl = `https://jacintodesign.github.io/quotes-api/data/quotes.json`;
+    const apiUrl = 'https://jacintodesign.github.io/quotes-api/data/quotes.json';
     try {
         const response = await fetch(apiUrl);
         apiQuotes = await response.json();
@@ -53,11 +53,7 @@ async function getQuotes(){
         //Error here
     }
 }
-//Twee
-function tweetQuote() {
-    const twitterUrl =`https://twitter.com/intent/tweet?text=${quoteText.textContent} - ${authorText.textContent}`;
-    window.open(twitterUrl, '_blank');
-}
+//Tweet
 
 //Event Listener 
 newQuoteBtn.addEventListener('click', newQuote);
